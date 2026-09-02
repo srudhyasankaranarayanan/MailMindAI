@@ -4,7 +4,7 @@
 
 MailMind AI is an AI-powered **email summarization workflow** built using **Dify**. It analyzes email subjects and content and generates a structured summary containing the key information, important points, action items, and deadlines.
 
-🔗 **Live Workflow:** [https://udify.app/workflow/R5cuDPReqPvRYzjo]
+🔗 **Live Workflow:**
 
 ## 📌 Overview
 
@@ -268,7 +268,6 @@ Developed as a Generative AI project exploring **Dify Workflow Automation, Promp
 ## 🔗 Project Link
 
 🚀 **MailMind AI Workflow:**
-https://udify.app/workflow/R5cuDPReqPvRYzjo
 **Platform:** Dify
 
 ---
