@@ -10,25 +10,19 @@ MailMind AI is an AI-powered workflow built using **Dify** that analyzes email s
 
 ```mermaid
 flowchart LR
-    A[📧 User Input] --> B[📝 Email Subject]
-    A --> C[📄 Email Content]
+    A[📧 User Input]
 
-    B --> D[🤖 AI / LLM]
-    C --> D
+    A --> B[📝 Email Summarization]
+    A --> C[📂 Email Classification]
+    A --> D[🚨 Priority Detector]
+    A --> E[✍️ Email Reply Generator]
 
-    D --> E[🧠 Email Analysis]
-
-    E --> F[📝 Short Summary]
-    E --> G[📌 Important Points]
-    E --> H[✅ Action Items]
-    E --> I[⏰ Deadlines]
-
-    F --> J[📤 Final Output]
-    G --> J
-    H --> J
-    I --> J
+    B --> F[📤 Final Output]
+    C --> F
+    D --> F
+    E --> F
 ```
----
+
 
 # 🎯 Objectives
 📧 Simplify email reading and understanding
